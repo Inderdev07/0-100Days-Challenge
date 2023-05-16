@@ -1,0 +1,47 @@
+.container {
+	max-width: 360px;
+	box-shadow: 0px 0px 22px 8px gray;
+    background-image: url("wild.69.jpg");
+    position: relative;
+}
+#result {
+    text-align: right;
+    height: 50px;
+    line-height: 30px;
+    padding: 4% 2%;
+    font-size: 25px;
+    font-family: 'courier';
+}
+.bttns {
+    display: grid;
+    border: 1px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.bttns div {
+    border-top: 1px solid #999;
+}
+.btn {
+    border: .5px solid gray;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+#equal {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 30px;
+}
+#clear{
+    background-color: tomato;
+    color: white;
+}
+.btn:hover {
+    background-color: lightgray;
+}
+#equal:hover{
+    background-color: blue;
+}
+#clear:hover{
+    background-color: red;
+}
