@@ -1,0 +1,12 @@
+.music-player {
+    width: 300px;
+    margin: 60px auto;
+    text-align: center;
+    background-color: rgb(65, 128, 23);
+  }
+  
+  audio {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(232, 104, 0);
+  }
