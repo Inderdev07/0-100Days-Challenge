@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #544f4f; 
+      height: 500px; 
+     background-position: center;
+     background-size: cover;
+
+  }
+  
+  header {
+    background-color: #120f0f;
+    padding: 20px;
+    color: #4eb622;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #0be6e6;
+    text-decoration: none;
+  }
+  
+  .hero-section {
+    background-image: url("75d42796e65f781df7800cfd308f8d83.jpg");
+    text-align: center;
+    padding: 100px;
+    color: #911885;
+  }
+  
+  .hero-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #0aafc8;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .destination-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .destination-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .destination-card {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .destination-card img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .footer {
+    background-color: #d71010;
+    padding: 20px;
+    text-align: center;
+    color: #7c2020;
+  }
+  .element.style {
+    background: darkred;
+}
