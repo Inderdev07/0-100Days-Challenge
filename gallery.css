@@ -1,0 +1,48 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-gap: 1px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    
+  }
+  
+  .gallery-item {
+    position: relative;
+  }
+  
+  .gallery-item:hover .overlay {
+    opacity: 1;
+    height: 10px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 50%;
+    height: 10px;
+    background-color: rgba(63, 58, 58, 0.5);
+    opacity: 0;
+    transition: opacity 0.10s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cf1414;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .overlay:hover {
+    cursor: pointer;
+  }
+  body{
+    background-image: url("75d42796e65f781df7800cfd308f8d83.jpg");
+    background-color: #4f6b6d; 
+      height: 500px; 
+     background-position: center;
+     background-size: cover;
+  }
+  
