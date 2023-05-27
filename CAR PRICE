@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inder Car Predection </title>
+<!--   <style>
+    body{background-color:red;}
+  </style> -->
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+
+  
+</head>
+<body>
+<h1>Car Price Predection</h1>
+<p></p>
+
+
+<!-- <nav class="nav-list">
+    <div class="logo"><img src="WhatsApp Image 2023-04-17 at 2.54.40 PM.jpeg" height="50" width="10%" margin="auto" display=" block"  alt="logo"></div> 
+</nav> -->
+  
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+<!-- <form action="/Car", method="post"> -->
+    
+
+<div class="row">
+
+  
+<form action="/Car" method="POST">
+  
+  
+    <table>
+      <tr>
+        <div class="col-sm-6">
+          <td><label for="Fuel">Fuel Type</label></td></div>
+        <div class="col-sm-6">
+          <td>
+
+            <select name="Fuel" id="Fuel">
+              <option value="1">Gas</option>
+              <option value="2">Diesel</option>
+            </select></td></div>
+    </tr> 
+
+    <tr>
+        <div class="col-sm-6">
+          <td><label for="cars">Enter Engine type:</label></td></div>
+        <div class="col-sm-6">
+          <td>
+
+            <select name="cars" id="cars">
+              <option value="1">dohc</option>
+              <option value="2">ohcv</option>
+              <option value="3">ohc</option>
+              <option value="4">l</option>
+              <option value="5">rotor</option>
+              <option value="6">ohcf</option>
+              <option value="7">dohcv</option>
+            </select></td></div>
+    </tr>
+    <tr>
+        <div class="col-sm-6">
+          <td>Enter Engine size</td></div>
+        <div class="col-sm-6">
+          <td><input type="text" name="size" placeholder="Range between 61- 326" required></td></div>
+    </tr>
+   
+    <div class="col-sm-6">
+          <td>Enter Horse power</td></div>
+        <div class="col-sm-6">
+          <td><input type="text" name="Horse" placeholder="Range between 48 - 288" required></td></div>
+    <tr>
+
+
+  
+
+
+
+    <td colspan="2" aliegn="center">
+      <input type="submit" value="Predict Car Price">
+      <input type="reset" value="Clear">
+    </td>
+    </tr>
+  
+  </table>
+  
+  </form>
+{{data}}
+  </div>
+
+  </div>
+</body>
+</html>
+                                @inder dev singh
