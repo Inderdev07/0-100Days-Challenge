@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Chatbot</title>
+    <style>
+        .chat-container {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .chat-container .message {
+            margin-bottom: 10px;
+        }
+
+        .chat-container .user-message {
+            text-align: right;
+            color: blue;
+        }
+
+        .chat-container .bot-message {
+            text-align: left;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-log"></div>
+        <input type="text" id="user-input" placeholder="Type your message..." />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
