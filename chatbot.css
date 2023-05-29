@@ -1,0 +1,23 @@
+width: 400px;
+  height: 500px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+#message-container {
+  height: 400px;
+}
+
+#input-container {
+  margin-top: 10px;
+}
+
+#user-input {
+  width: 300px;
+  padding: 5px;
+}
+
+#send-button {
+  padding: 5px 10px;
+}
